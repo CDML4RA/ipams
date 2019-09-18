@@ -40,7 +40,7 @@
   <script src="{{asset('js/datatables.js')}}"></script>
   <script src="{{asset('js/popper.js')}}"></script>
   <script src="{{asset('js/bootstrap4.min.js')}}"></script>
-  <script src="{{asset('js/bootstrap-confirmation.js')}}"></script>
+  {{-- <script src="{{asset('js/bootstrap-confirmation.js')}}"></script> --}}
   <script src="{{asset('js/validation-form.js')}}"></script>
   <script src="{{asset('js/jquery.number.js')}}"></script>
   
@@ -55,10 +55,10 @@
             "lengthMenu": [[5, 10, 25, 50, -1], [5, 10, 25, 50,"All"]],
         });
 
-        $('[data-toggle=confirmation]').confirmation({
-        rootSelector: '[data-toggle=confirmation]',
-        // other options
-        });
+        // $('[data-toggle=confirmation]').confirmation({
+        // rootSelector: '[data-toggle=confirmation]',
+        
+        // });
 
         
         
